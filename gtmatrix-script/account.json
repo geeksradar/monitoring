@@ -1,0 +1,14 @@
+{  
+    "clients": 
+    [{ 
+        "name": "domain1",
+        "site": "https://domain1.com",   
+        "api": "gtmatrix-api-key"    
+    },
+    { 
+        "name": "domain2",
+        "site": "https://domain2.com",
+        "api": "grmatrix-api-key"    
+    }
+]
+}  
