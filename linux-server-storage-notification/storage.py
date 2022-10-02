@@ -17,7 +17,7 @@ output = os.popen(cmd).read()
 def report_via_email():
     EMAIL_HOST = 'aws-ses-server'
     EMAIL_HOST_USER = "ses-user"
-    EMAIL_HOST_PASSWORD = "ses-smtp-pass"
+    EMAIL_HOST_PASSWORD = "ses-smtp-pass-secret"
     EMAIL_PORT = 587
 
     msg = MIMEMultipart('alternative')
